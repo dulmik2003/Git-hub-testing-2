@@ -1,0 +1,111 @@
+/*-----------------------------------------------------------
+                Color, font and variable setup
+--------------------------------------------------------*/
+:root {
+    --c-primary:#975af9;
+    --c-secondry:#46a7f8;
+    --c-background:#e6e6e6;
+    --c-dark:#2d2d2d;
+    --c-black:#000000;
+    --font-base:"poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--c-primary );
+    font-family: var(--font-base);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--c-secondry);
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*-----------------------------------------------------------
+                Button css setup
+------------------------------------------------------*/
+.btn {
+    font-weight: 600 !important;
+}
+
+.btn-primary {
+    background-color: var(--c-primary) !important;
+    border-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--c-secondry) !important;
+    border-color: var(--c-secondry) !important;
+}
+
+.btn-light {
+    background-color: var(--c-background) !important;
+}
+
+
+/*-----------------------------------------------------------
+                Navbar css setup setup
+-----------------------------------------------------*/
+.navbar {
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-dark {
+    background-color: var(--c-black);
+}
+
+#btn-download {
+    font-family: var(--font-base) !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+    
+
+/*-----------------------------------------------------------
+                Hero css setup
+--------------------------------------------------*/
+#Hero {
+    background: url(../img/home/Hero-img.jpg);
+    background-position: top;
+    margin-top: -55px;
+}
+
+.hero-text {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+
+/*-----------------------------------------------------------
+                About Us css setup
+--------------------------------------------------*/
+.brand-title {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.brand-p {
+    font-size: 25px;
+    font-family: var(--font-base);
+
+}
