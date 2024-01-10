@@ -85,7 +85,7 @@ img {
                 Hero css setup
 --------------------------------------------------*/
 #Hero {
-    background: url(../img/home/Hero-img.jpg);
+    background-image: url("../img/home/hero-img.jpg");
     background-position: top;
     margin-top: -55px;
 }
